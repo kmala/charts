@@ -18,7 +18,7 @@ spec:
       serviceAccount: deis-builder
       containers:
         - name: deis-builder
-          image: quay.io/deisci/builder:canary
+          image: kmala/builder:canary
           imagePullPolicy: Always
           ports:
             - containerPort: 2223
@@ -33,9 +33,9 @@ spec:
             - name: BUILDER_STORAGE
               value: {{default "minio" .storage}}
             - name: "SLUGBUILDER_IMAGE_NAME"
-              value: "quay.io/deisci/slugbuilder:canary"
+              value: "kmala/slugbuilder:canary"
             - name: "DOCKERBUILDER_IMAGE_NAME"
-              value: "quay.io/deisci/dockerbuilder:canary"
+              value: "kmala/dockerbuilder:canary"
             # This var needs to be passed so that the minio client (https://github.com/minio/mc) will work in Alpine linux
             - name: "DOCKERIMAGE"
               value: "1"
