@@ -1,0 +1,10 @@
+name: redis
+home: https://github.com/deis/fluentd
+version: v2.2.0
+description: Log shipping mechanism for Deis Workflow.
+maintainers:
+  - name: Deis Team
+    email: engineering@deis.com
+details: |-
+  Workflow is an open source PaaS that makes it easy to deploy and manage applications on your own
+  servers. Workflow builds on Kubernetes to provide a lightweight, Heroku-inspired workflow.
