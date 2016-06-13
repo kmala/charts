@@ -1,0 +1,48 @@
+deis-workflow-2.3.0-v2.3.0:
+  name: deis-workflow-2.3.0
+  url: https://raw.githubusercontent.com/kmala/charts/deis-workflow-2.3.0-v2.3.0.tgz
+  created: 2016-08-26 00:34:24.501818886 +0000 UTC
+  checksum: 92290034726df46640e485c612d2b176a587bdc0
+  chartfile:
+    name: deis-workflow-2.3.0
+    home: https://github.com/deis/workflow
+    sources: []
+    version: v2.3.0
+    description: Deis Workflow
+    keywords: []
+    maintainers:
+    - name: Deis Team
+      email: engineering@deis.com
+    engine: ""
+deis-workflow-2.4.1-v2.4.1:
+  name: deis-workflow-2.4.1
+  url: https://raw.githubusercontent.com/kmala/charts/deis-workflow-2.4.1-v2.4.1.tgz
+  created: 2016-08-26 00:34:24.508211408 +0000 UTC
+  checksum: 5d5f36808595b0b5d655073ef7ad0e8cfb717d37
+  chartfile:
+    name: deis-workflow-2.4.1
+    home: https://github.com/deis/workflow
+    sources: []
+    version: v2.4.1
+    description: Deis Workflow
+    keywords: []
+    maintainers:
+    - name: Deis Team
+      email: engineering@deis.com
+    engine: ""
+deis-workflow-2.5.0-v2.5.0:
+  name: deis-workflow-2.5.0
+  url: https://raw.githubusercontent.com/kmala/charts/deis-workflow-2.5.0-v2.5.0.tgz
+  created: 2016-09-13 02:36:21.284865914 +0000 UTC
+  checksum: aee9cb67743ca6b3e63c858b6c5ab7f99895d770
+  chartfile:
+    name: deis-workflow-2.5.0
+    home: https://github.com/deis/workflow
+    sources: []
+    version: v2.5.0
+    description: Deis Workflow
+    keywords: []
+    maintainers:
+    - name: Deis Team
+      email: engineering@deis.com
+    engine: ""

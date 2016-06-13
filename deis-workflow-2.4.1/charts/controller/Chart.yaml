@@ -1,0 +1,10 @@
+name: controller
+home: https://github.com/deis/controller
+version: v2.4.1
+description: Deis Workflow Controller (API).
+maintainers:
+  - name: Deis Team
+    email: engineering@deis.com
+details: |-
+  Workflow is an open source PaaS that makes it easy to deploy and manage applications on your own
+  servers. Workflow builds on Kubernetes to provide a lightweight, Heroku-inspired workflow.

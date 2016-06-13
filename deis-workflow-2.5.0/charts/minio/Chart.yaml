@@ -1,0 +1,10 @@
+name: minio
+home: https://github.com/deis/minio
+version: v2.2.1
+description: Minio Object Storage in Kubernetes, used by Deis Workflow.
+maintainers:
+  - name: Deis Team
+    email: engineering@deis.com
+details: |-
+  Workflow is an open source PaaS that makes it easy to deploy and manage applications on your own
+  servers. Workflow builds on Kubernetes to provide a lightweight, Heroku-inspired workflow.

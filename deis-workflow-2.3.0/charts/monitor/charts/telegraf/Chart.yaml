@@ -1,0 +1,10 @@
+name: telegraf
+home: https://github.com/deis/monitor/tree/master/telegraf
+version: v2.2.0
+description: Monitoring for Deis Workflow.
+maintainers:
+  - name: Deis Team
+    email: engineering@deis.com
+details: |-
+  Workflow is an open source PaaS that makes it easy to deploy and manage applications on your own
+  servers. Workflow builds on Kubernetes to provide a lightweight, Heroku-inspired workflow.

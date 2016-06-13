@@ -1,0 +1,50 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: deis-logger
+  labels:
+    heritage: deis
+spec:
+  replicas: 1
+  selector:
+    app: deis-logger
+  template:
+    metadata:
+      labels:
+        app: deis-logger
+    spec:
+      containers:
+      - name: deis-logger
+        image: quay.io/{{.Values.org}}/logger:{{.Values.dockerTag}}
+        imagePullPolicy: {{.Values.pullPolicy}}
+        env:
+        - name: STORAGE_ADAPTER
+          value: redis
+{{- if eq .Values.global.logger_redis_location "off-cluster" }}
+        - name: DEIS_LOGGER_REDIS_DB
+          value: "{{ .Values.redis.db }}"
+        - name: DEIS_LOGGER_REDIS_SERVICE_HOST
+          value: "{{ .Values.redis.host }}"
+        - name: DEIS_LOGGER_REDIS_SERVICE_PORT
+          value: "{{ .Values.redis.port }}"
+{{- end }}
+        - name: DEIS_LOGGER_REDIS_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: logger-redis-creds
+              key: password
+        ports:
+        - containerPort: 8088
+          name: http
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 8088
+          initialDelaySeconds: 1
+          timeoutSeconds: 1
+        readinessProbe:
+          httpGet:
+            path: /healthz
+            port: 8088
+          initialDelaySeconds: 1
+          timeoutSeconds: 1

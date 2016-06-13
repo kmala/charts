@@ -1,0 +1,10 @@
+name: registry-token-refresher
+home: https://github.com/deis/registry-token-refresher
+version: v1.0.0
+description: Token Refresher for Deis Workflow.
+maintainers:
+  - name: Deis Team
+    email: engineering@deis.com
+details: |-
+  Workflow is an open source PaaS that makes it easy to deploy and manage applications on your own
+  servers. Workflow builds on Kubernetes to provide a lightweight, Heroku-inspired workflow.
