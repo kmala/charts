@@ -1,7 +1,7 @@
-name: fluentd
-home: https://github.com/deis/fluentd
-version: v2.2.0
-description: Log shipping mechanism for Deis Workflow.
+name: workflow-manager
+home: https://github.com/deis/workflow-manager
+version: v2.4.2
+description: "Deis Workflow Manager: Cluster First Aid"
 maintainers:
   - name: Deis Team
     email: engineering@deis.com

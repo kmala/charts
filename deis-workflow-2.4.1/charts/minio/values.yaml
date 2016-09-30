@@ -1,3 +1,0 @@
-org: "deis"
-pullPolicy: "IfNotPresent"
-dockerTag: v2.2.0

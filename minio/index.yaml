@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  minio:
+  - created: 2016-10-09T00:01:29.183565175-06:00
+    description: Minio Object Storage in Kubernetes, used by Deis Workflow.
+    digest: c04431dc4c2d0a55062e37279b0021c46f02a8f903d120715136b817857f8637
+    home: https://github.com/deis/minio
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: minio
+    urls:
+    - https://kmala.github.io/charts/minio/minio-v2.3.0.tgz
+    version: v2.3.0
+generated: 2016-10-09T00:01:29.182222901-06:00

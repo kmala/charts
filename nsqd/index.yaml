@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  nsqd:
+  - created: 2016-10-10T15:59:44.303333538-06:00
+    description: A kubernetes based docker image for running nsq daemon.
+    digest: 7216802f2c24ba572c84b3a4c4c2c6f5e8dcee8aa6d79de6d2f6ff9a4340d6e7
+    home: https://github.com/deis/nsq
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: nsqd
+    urls:
+    - https://kmala.github.io/charts/nsqd/nsqd-v2.2.2.tgz
+    version: v2.2.2
+generated: 2016-10-10T15:59:44.300781508-06:00

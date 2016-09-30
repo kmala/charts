@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  slugrunner:
+  - created: 2016-10-10T15:50:07.082096233-06:00
+    description: Buildpack application runner for Deis Workflow.
+    digest: d29951b188368a9b8c1a26643d8562d4991ef4ab4b260098f4d7f7e0933eaff6
+    home: https://github.com/deis/slugrunner
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: slugrunner
+    urls:
+    - https://kmala.github.io/charts/slugrunner/slugrunner-v2.2.2.tgz
+    version: v2.2.2
+generated: 2016-10-10T15:50:07.078438838-06:00

@@ -1,7 +1,7 @@
-name: fluentd
-home: https://github.com/deis/fluentd
-version: v2.2.0
-description: Log shipping mechanism for Deis Workflow.
+name: registry-token-refresher
+home: https://github.com/deis/registry-token-refresher
+version: v1.0.2
+description: Token Refresher for Deis Workflow.
 maintainers:
   - name: Deis Team
     email: engineering@deis.com

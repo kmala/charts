@@ -1,48 +1,273 @@
-deis-workflow-2.3.0-v2.3.0:
-  name: deis-workflow-2.3.0
-  url: https://kmala.github.io/charts/deis-workflow-2.3.0-v2.3.0.tgz
-  created: 2016-08-26 00:34:24.501818886 +0000 UTC
-  checksum: 92290034726df46640e485c612d2b176a587bdc0
-  chartfile:
+apiVersion: v1
+entries:
+  builder:
+  - created: 2016-10-10T16:12:36.560187935-06:00
+    description: Git server and application builder for Deis Workflow.
+    digest: 5b46000ac3d576ff85ad6d9d8141bf455c73d05f5fa8c28d0ed4d09be1c76062
+    home: https://github.com/deis/builder
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: builder
+    urls:
+    - https://kmala.github.io/charts/builder-v2.5.1.tgz
+    version: v2.5.1
+  controller:
+  - created: 2016-10-10T16:12:36.560836096-06:00
+    description: Deis Workflow Controller (API).
+    digest: e02401ed3da08b10ff2cc54cf3606567c4dcc55ada7429e9abc2fbdd17684107
+    home: https://github.com/deis/controller
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: controller
+    urls:
+    - https://kmala.github.io/charts/controller-v2.6.0.tgz
+    version: v2.6.0
+  database:
+  - created: 2016-10-10T16:12:36.562008597-06:00
+    description: A PostgreSQL database used by Deis Workflow.
+    digest: 47b3a8cb5eb5cda34d23e3bf256c291b4ee4a12d77a4cf8faf45a5dd3f903ce4
+    home: https://github.com/deis/postgres
+    keywords:
+    - database
+    - postgres
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: database
+    urls:
+    - https://kmala.github.io/charts/database-v2.2.3.tgz
+    version: v2.2.3
+  deis-workflow:
+  - created: 2016-10-10T16:12:36.596906009-06:00
+    description: Deis Workflow
+    digest: 4245832268b4499974dfdae5983338503284a36f267a8aa5ff5904b70aa07889
+    home: https://github.com/deis/workflow
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: deis-workflow
+    urls:
+    - https://kmala.github.io/charts/deis-workflow-v2.6.0.tgz
+    version: v2.6.0
+  deis-workflow-2.3.0:
+  - created: 2016-10-10T16:12:36.580290152-06:00
+    description: Deis Workflow
+    digest: 9c2c8ad8421788b5efcb2e8a32c9e5c024cad8042a1d81d0b53867d9a38747ef
+    home: https://github.com/deis/workflow
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
     name: deis-workflow-2.3.0
-    home: https://github.com/deis/workflow
-    sources: []
+    urls:
+    - https://kmala.github.io/charts/deis-workflow-2.3.0-v2.3.0.tgz
     version: v2.3.0
+  deis-workflow-2.4.1:
+  - created: 2016-10-10T16:12:36.585848511-06:00
     description: Deis Workflow
-    keywords: []
+    digest: a5bcfe8185523999e3a4573cbdbe6e46a936a091c7e4f0f5667e479232f226b1
+    home: https://github.com/deis/workflow
     maintainers:
-    - name: Deis Team
-      email: engineering@deis.com
-    engine: ""
-deis-workflow-2.4.1-v2.4.1:
-  name: deis-workflow-2.4.1
-  url: https://kmala.github.io/charts/deis-workflow-2.4.1-v2.4.1.tgz
-  created: 2016-08-26 00:34:24.508211408 +0000 UTC
-  checksum: ac6b521f10c7e000ff848da61a771ca6aa82efb8
-  chartfile:
+    - email: engineering@deis.com
+      name: Deis Team
     name: deis-workflow-2.4.1
-    home: https://github.com/deis/workflow
-    sources: []
+    urls:
+    - https://kmala.github.io/charts/deis-workflow-2.4.1-v2.4.1.tgz
     version: v2.4.1
+  deis-workflow-2.5.0:
+  - created: 2016-10-10T16:12:36.5886779-06:00
     description: Deis Workflow
-    keywords: []
-    maintainers:
-    - name: Deis Team
-      email: engineering@deis.com
-    engine: ""
-deis-workflow-2.5.0-v2.5.0:
-  name: deis-workflow-2.5.0
-  url: https://kmala.github.io/charts/deis-workflow-2.5.0-v2.5.0.tgz
-  created: 2016-09-13 02:36:21.284865914 +0000 UTC
-  checksum: aade49e1e43712c81a63210222300938b0608ad1
-  chartfile:
-    name: deis-workflow-2.5.0
+    digest: 366ffd2625451271bb15397b8d2ee911696e65bcddf0d24c0177e4178b8296bd
     home: https://github.com/deis/workflow
-    sources: []
-    version: v2.5.0
-    description: Deis Workflow
-    keywords: []
     maintainers:
-    - name: Deis Team
-      email: engineering@deis.com
-    engine: ""
+    - email: engineering@deis.com
+      name: Deis Team
+    name: deis-workflow-2.5.0
+    urls:
+    - https://kmala.github.io/charts/deis-workflow-2.5.0-v2.5.0.tgz
+    version: v2.5.0
+  deis-workflow-2.6.0:
+  - created: 2016-10-10T16:12:36.593319614-06:00
+    description: Deis Workflow
+    digest: 7e015b38cbcae122b04af90238ded4dd8f6c337ef5928abd4a887b44ab7f5869
+    home: https://github.com/deis/workflow
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: deis-workflow-2.6.0
+    urls:
+    - https://kmala.github.io/charts/deis-workflow-2.6.0-v2.6.0.tgz
+    version: v2.6.0
+  dockerbuilder:
+  - created: 2016-10-10T16:12:36.563885458-06:00
+    description: Buildpack application builder for Deis Workflow.
+    digest: e012ba4a3cfbfff4cf595a920b0e3a37902864fb4e09ee3e0386734c80267320
+    home: https://github.com/deis/dockerbuilder
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: dockerbuilder
+    urls:
+    - https://kmala.github.io/charts/dockerbuilder-v2.3.3.tgz
+    version: v2.3.3
+  fluentd:
+  - created: 2016-10-10T16:12:36.564249095-06:00
+    description: Log shipping mechanism for Deis Workflow.
+    digest: 490f1f2f0ac9e5a357566fe1220ca3dbe6f4425121db7c49a0986a5f043bdd23
+    home: https://github.com/deis/fluentd
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: fluentd
+    urls:
+    - https://kmala.github.io/charts/fluentd-v2.4.1.tgz
+    version: v2.4.1
+  logger:
+  - created: 2016-10-10T16:12:36.564627074-06:00
+    description: In-memory log buffer used by Deis Workflow.
+    digest: 1c077a0cdd45594252c4139c106eacc90753cd4bf8f5ecf0034d11816f41cf99
+    home: https://github.com/deis/logger
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: logger
+    urls:
+    - https://kmala.github.io/charts/logger-v2.3.1.tgz
+    version: v2.3.1
+  minio:
+  - created: 2016-10-10T16:12:36.565025339-06:00
+    description: Minio Object Storage in Kubernetes, used by Deis Workflow.
+    digest: c04431dc4c2d0a55062e37279b0021c46f02a8f903d120715136b817857f8637
+    home: https://github.com/deis/minio
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: minio
+    urls:
+    - https://kmala.github.io/charts/minio-v2.3.0.tgz
+    version: v2.3.0
+  monitor:
+  - created: 2016-10-10T16:12:36.565867655-06:00
+    description: Monitoring for Deis Workflow.
+    digest: 32c1bdbdbdf45c9c9ed44da53bbecfa01719ebef986833073b7d21f29369f880
+    home: https://github.com/deis/monitor
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: monitor
+    urls:
+    - https://kmala.github.io/charts/monitor-v2.5.1.tgz
+    version: v2.5.1
+  nsqd:
+  - created: 2016-10-10T16:12:36.566274856-06:00
+    description: A kubernetes based docker image for running nsq daemon.
+    digest: 7216802f2c24ba572c84b3a4c4c2c6f5e8dcee8aa6d79de6d2f6ff9a4340d6e7
+    home: https://github.com/deis/nsq
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: nsqd
+    urls:
+    - https://kmala.github.io/charts/nsqd-v2.2.2.tgz
+    version: v2.2.2
+  redis:
+  - created: 2016-10-10T16:12:36.56667432-06:00
+    description: A Redis database for use inside a Kubernetes cluster.
+    digest: 70c56866d8919cab6eee6712cc6a96ddf9cd7ececaa0cb46bdf7a3a0590d6dfe
+    home: https://github.com/deis/redis
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: redis
+    urls:
+    - https://kmala.github.io/charts/redis-v2.2.2.tgz
+    version: v2.2.2
+  registry:
+  - created: 2016-10-10T16:12:36.567870452-06:00
+    description: Docker registry for Deis Workflow.
+    digest: 32ae8485e2c945e67460b151b920a91c4e36e41534a583dbe80ab52b3874a1c7
+    home: https://github.com/deis/registry
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: registry
+    urls:
+    - https://kmala.github.io/charts/registry-v2.2.2.tgz
+    version: v2.2.2
+  registry-proxy:
+  - created: 2016-10-10T16:12:36.567005933-06:00
+    description: Deis Workflow Registry Proxy.
+    digest: a870c216f86c2f1d817cb5b860cb99bc2f98c04bf7e240787dd9011347a7f42b
+    home: https://github.com/deis/registry-proxy
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: registry-proxy
+    urls:
+    - https://kmala.github.io/charts/registry-proxy-v1.1.0.tgz
+    version: v1.1.0
+  registry-token-refresher:
+  - created: 2016-10-10T16:12:36.567446585-06:00
+    description: Token Refresher for Deis Workflow.
+    digest: ac04686649b7ceb70b56c4ca27b7772ad8472a744379c2e5af4150001d269cdb
+    home: https://github.com/deis/registry-token-refresher
+    keywords:
+    - private registry
+    - token refresher
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: registry-token-refresher
+    urls:
+    - https://kmala.github.io/charts/registry-token-refresher-v1.0.2.tgz
+    version: v1.0.2
+  router:
+  - created: 2016-10-10T16:12:36.568255646-06:00
+    description: Edge router for Deis Workflow.
+    digest: 5ae7c1c05c6d76f0265e87ccea6e8b717342d571185ad4f8b06c38459b01d592
+    home: https://github.com/deis/router
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: router
+    urls:
+    - https://kmala.github.io/charts/router-v2.6.2.tgz
+    version: v2.6.2
+  slugbuilder:
+  - created: 2016-10-10T16:12:36.568547005-06:00
+    description: Buildpack application builder for Deis Workflow.
+    digest: e6726a2d84d997d13daa3c0425f0a0fd42162eb8b528e995138558efb16c5064
+    home: https://github.com/deis/slugbuilder
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: slugbuilder
+    urls:
+    - https://kmala.github.io/charts/slugbuilder-v2.4.3.tgz
+    version: v2.4.3
+  slugrunner:
+  - created: 2016-10-10T16:12:36.568835538-06:00
+    description: Buildpack application runner for Deis Workflow.
+    digest: d29951b188368a9b8c1a26643d8562d4991ef4ab4b260098f4d7f7e0933eaff6
+    home: https://github.com/deis/slugrunner
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: slugrunner
+    urls:
+    - https://kmala.github.io/charts/slugrunner-v2.2.2.tgz
+    version: v2.2.2
+  workflow-manager:
+  - created: 2016-10-10T16:12:36.569185441-06:00
+    description: 'Deis Workflow Manager: Cluster First Aid'
+    digest: 918f8971f32c9b289fedb828b20d311357d6c9f003678c0941bee91307e967ff
+    home: https://github.com/deis/workflow-manager
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: workflow-manager
+    urls:
+    - https://kmala.github.io/charts/workflow-manager-v2.4.2.tgz
+    version: v2.4.2
+generated: 2016-10-10T16:12:36.5578587-06:00

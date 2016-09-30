@@ -1,7 +1,7 @@
-name: fluentd
-home: https://github.com/deis/fluentd
-version: v2.2.0
-description: Log shipping mechanism for Deis Workflow.
+name: logger
+home: https://github.com/deis/logger
+version: v2.3.1
+description: In-memory log buffer used by Deis Workflow.
 maintainers:
   - name: Deis Team
     email: engineering@deis.com

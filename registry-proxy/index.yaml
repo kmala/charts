@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  registry-proxy:
+  - created: 2016-10-09T00:03:42.605609977-06:00
+    description: Deis Workflow Registry Proxy.
+    digest: a870c216f86c2f1d817cb5b860cb99bc2f98c04bf7e240787dd9011347a7f42b
+    home: https://github.com/deis/registry-proxy
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: registry-proxy
+    urls:
+    - https://kmala.github.io/charts/registry-proxy/registry-proxy-v1.1.0.tgz
+    version: v1.1.0
+generated: 2016-10-09T00:03:42.602752701-06:00

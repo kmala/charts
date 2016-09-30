@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  fluentd:
+  - created: 2016-10-09T00:00:26.150545223-06:00
+    description: Log shipping mechanism for Deis Workflow.
+    digest: 490f1f2f0ac9e5a357566fe1220ca3dbe6f4425121db7c49a0986a5f043bdd23
+    home: https://github.com/deis/fluentd
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: fluentd
+    urls:
+    - https://kmala.github.io/charts/fluentd/fluentd-v2.4.1.tgz
+    version: v2.4.1
+generated: 2016-10-09T00:00:26.150059239-06:00

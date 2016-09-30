@@ -1,7 +1,7 @@
-name: fluentd
-home: https://github.com/deis/fluentd
-version: v2.2.0
-description: Log shipping mechanism for Deis Workflow.
+name: deis-workflow-2.6.0
+home: https://github.com/deis/workflow
+version: v2.6.0
+description: Deis Workflow
 maintainers:
   - name: Deis Team
     email: engineering@deis.com

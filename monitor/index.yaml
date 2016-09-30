@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  monitor:
+  - created: 2016-10-09T00:01:58.292061306-06:00
+    description: Monitoring for Deis Workflow.
+    digest: 32c1bdbdbdf45c9c9ed44da53bbecfa01719ebef986833073b7d21f29369f880
+    home: https://github.com/deis/monitor
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: monitor
+    urls:
+    - https://kmala.github.io/charts/monitor/monitor-v2.5.1.tgz
+    version: v2.5.1
+generated: 2016-10-09T00:01:58.29017396-06:00

@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  slugbuilder:
+  - created: 2016-10-10T16:09:04.038267735-06:00
+    description: Buildpack application builder for Deis Workflow.
+    digest: e6726a2d84d997d13daa3c0425f0a0fd42162eb8b528e995138558efb16c5064
+    home: https://github.com/deis/slugbuilder
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: slugbuilder
+    urls:
+    - https://kmala.github.io/charts/slugbuilder/slugbuilder-v2.4.3.tgz
+    version: v2.4.3
+generated: 2016-10-10T16:09:04.037071634-06:00

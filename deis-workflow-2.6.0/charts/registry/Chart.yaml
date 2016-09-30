@@ -1,7 +1,7 @@
-name: fluentd
-home: https://github.com/deis/fluentd
-version: v2.2.0
-description: Log shipping mechanism for Deis Workflow.
+name: registry
+home: https://github.com/deis/registry
+version: v2.2.2
+description: Docker registry for Deis Workflow.
 maintainers:
   - name: Deis Team
     email: engineering@deis.com

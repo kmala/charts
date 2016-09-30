@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  controller:
+  - created: 2016-10-10T15:51:06.61369319-06:00
+    description: Deis Workflow Controller (API).
+    digest: e02401ed3da08b10ff2cc54cf3606567c4dcc55ada7429e9abc2fbdd17684107
+    home: https://github.com/deis/controller
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: controller
+    urls:
+    - https://kmala.github.io/charts/controller/controller-v2.6.0.tgz
+    version: v2.6.0
+generated: 2016-10-10T15:51:06.61320875-06:00

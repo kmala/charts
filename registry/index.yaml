@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  registry:
+  - created: 2016-10-09T00:03:04.356205942-06:00
+    description: Docker registry for Deis Workflow.
+    digest: 32ae8485e2c945e67460b151b920a91c4e36e41534a583dbe80ab52b3874a1c7
+    home: https://github.com/deis/registry
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: registry
+    urls:
+    - https://kmala.github.io/charts/registry/registry-v2.2.2.tgz
+    version: v2.2.2
+generated: 2016-10-09T00:03:04.354434789-06:00

@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  workflow-manager:
+  - created: 2016-10-09T00:05:37.617197107-06:00
+    description: 'Deis Workflow Manager: Cluster First Aid'
+    digest: 918f8971f32c9b289fedb828b20d311357d6c9f003678c0941bee91307e967ff
+    home: https://github.com/deis/workflow-manager
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: workflow-manager
+    urls:
+    - https://kmala.github.io/charts/workflow-manager/workflow-manager-v2.4.2.tgz
+    version: v2.4.2
+generated: 2016-10-09T00:05:37.616426783-06:00

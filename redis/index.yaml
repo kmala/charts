@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  redis:
+  - created: 2016-10-08T23:59:54.49379301-06:00
+    description: A Redis database for use inside a Kubernetes cluster.
+    digest: 70c56866d8919cab6eee6712cc6a96ddf9cd7ececaa0cb46bdf7a3a0590d6dfe
+    home: https://github.com/deis/redis
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: redis
+    urls:
+    - https://kmala.github.io/charts/redis/redis-v2.2.2.tgz
+    version: v2.2.2
+generated: 2016-10-08T23:59:54.492794304-06:00

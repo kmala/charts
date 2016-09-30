@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  dockerbuilder:
+  - created: 2016-10-10T15:50:21.528391637-06:00
+    description: Buildpack application builder for Deis Workflow.
+    digest: e012ba4a3cfbfff4cf595a920b0e3a37902864fb4e09ee3e0386734c80267320
+    home: https://github.com/deis/dockerbuilder
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: dockerbuilder
+    urls:
+    - https://kmala.github.io/charts/dockerbuilder/dockerbuilder-v2.3.3.tgz
+    version: v2.3.3
+generated: 2016-10-10T15:50:21.52495217-06:00

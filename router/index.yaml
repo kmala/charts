@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  router:
+  - created: 2016-10-08T23:54:47.382663839-06:00
+    description: Edge router for Deis Workflow.
+    digest: 5ae7c1c05c6d76f0265e87ccea6e8b717342d571185ad4f8b06c38459b01d592
+    home: https://github.com/deis/router
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: router
+    urls:
+    - https://kmala.github.io/charts/router/router-v2.6.2.tgz
+    version: v2.6.2
+generated: 2016-10-08T23:54:47.381612499-06:00

@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  database:
+  - created: 2016-10-10T15:58:54.2035745-06:00
+    description: A PostgreSQL database used by Deis Workflow.
+    digest: 47b3a8cb5eb5cda34d23e3bf256c291b4ee4a12d77a4cf8faf45a5dd3f903ce4
+    home: https://github.com/deis/postgres
+    keywords:
+    - database
+    - postgres
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: database
+    urls:
+    - https://kmala.github.io/charts/database/database-v2.2.3.tgz
+    version: v2.2.3
+generated: 2016-10-10T15:58:54.200835386-06:00

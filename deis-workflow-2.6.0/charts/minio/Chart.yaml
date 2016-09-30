@@ -1,7 +1,7 @@
-name: fluentd
-home: https://github.com/deis/fluentd
-version: v2.2.0
-description: Log shipping mechanism for Deis Workflow.
+name: minio
+home: https://github.com/deis/minio
+version: v2.3.0
+description: Minio Object Storage in Kubernetes, used by Deis Workflow.
 maintainers:
   - name: Deis Team
     email: engineering@deis.com

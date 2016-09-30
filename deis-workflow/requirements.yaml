@@ -1,0 +1,52 @@
+dependencies:
+  - name: builder
+    version: v2.5.1
+    repository: https://kmala.github.io/charts/builder
+  - name: slugbuilder
+    version: v2.4.3
+    repository: https://kmala.github.io/charts/slugbuilder
+  - name: dockerbuilder
+    version: v2.3.3
+    repository: https://kmala.github.io/charts/dockerbuilder
+  - name: controller
+    version: v2.6.0
+    repository: https://kmala.github.io/charts/controller
+  - name: slugrunner
+    version: v2.2.2
+    repository: https://kmala.github.io/charts/slugrunner
+  - name: database
+    version: v2.2.3
+    repository: https://kmala.github.io/charts/database
+  - name: fluentd
+    version: v2.4.1
+    repository: https://kmala.github.io/charts/fluentd
+  - name: redis
+    version: v2.2.2
+    repository: https://kmala.github.io/charts/redis
+  - name: logger
+    version: v2.3.1
+    repository: https://kmala.github.io/charts/logger
+  - name: minio
+    version: v2.3.0
+    repository: https://kmala.github.io/charts/minio
+  - name: monitor
+    version: v2.5.1
+    repository: https://kmala.github.io/charts/monitor
+  - name: nsqd
+    version: v2.2.2
+    repository: https://kmala.github.io/charts/nsqd
+  - name: registry
+    version: v2.2.2
+    repository: https://kmala.github.io/charts/registry
+  - name: registry-proxy
+    version: v1.1.0
+    repository: https://kmala.github.io/charts/registry-proxy
+  - name: registry-token-refresher
+    version: v1.0.2
+    repository: https://kmala.github.io/charts/registry-token-refresher
+  - name: router
+    version: v2.6.2
+    repository: https://kmala.github.io/charts/router
+  - name: workflow-manager
+    version: v2.4.2
+    repository: https://kmala.github.io/charts/workflow-manager

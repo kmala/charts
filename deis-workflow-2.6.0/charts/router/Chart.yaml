@@ -1,7 +1,7 @@
-name: fluentd
-home: https://github.com/deis/fluentd
-version: v2.2.0
-description: Log shipping mechanism for Deis Workflow.
+name: router
+home: https://github.com/deis/router
+version: v2.6.2
+description: Edge router for Deis Workflow.
 maintainers:
   - name: Deis Team
     email: engineering@deis.com

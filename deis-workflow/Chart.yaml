@@ -1,0 +1,7 @@
+name: deis-workflow
+home: https://github.com/deis/workflow
+version: v2.6.0
+description: Deis Workflow
+maintainers:
+  - name: Deis Team
+    email: engineering@deis.com

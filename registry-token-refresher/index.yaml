@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  registry-token-refresher:
+  - created: 2016-10-09T00:04:37.822079546-06:00
+    description: Token Refresher for Deis Workflow.
+    digest: ac04686649b7ceb70b56c4ca27b7772ad8472a744379c2e5af4150001d269cdb
+    home: https://github.com/deis/registry-token-refresher
+    keywords:
+    - private registry
+    - token refresher
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: registry-token-refresher
+    urls:
+    - https://kmala.github.io/charts/registry-token-refresher/registry-token-refresher-v1.0.2.tgz
+    version: v1.0.2
+generated: 2016-10-09T00:04:37.821544641-06:00

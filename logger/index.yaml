@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  logger:
+  - created: 2016-10-09T00:01:00.452395152-06:00
+    description: In-memory log buffer used by Deis Workflow.
+    digest: 1c077a0cdd45594252c4139c106eacc90753cd4bf8f5ecf0034d11816f41cf99
+    home: https://github.com/deis/logger
+    maintainers:
+    - email: engineering@deis.com
+      name: Deis Team
+    name: logger
+    urls:
+    - https://kmala.github.io/charts/logger/logger-v2.3.1.tgz
+    version: v2.3.1
+generated: 2016-10-09T00:01:00.45190612-06:00
