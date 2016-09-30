@@ -1,5 +1,0 @@
-[router]
-org = "deisci"
-pullPolicy = "IfNotPresent"
-dockerTag = "git-4024db4"
-platformDomain = ""
